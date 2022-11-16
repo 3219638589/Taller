@@ -1,3 +1,7 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+
 .btn-twitter{
     background-color: #31a1f2;
     color: white;
@@ -28,13 +32,13 @@ body, html, .container, .row{
 div.col-lg-4
 {
     border: 10px solid transparent;
-    border-image: linear-gradient(to bottom, #1e1e96, #223946) 1;
+    border-image: linear-gradient(to bottom, #34d7dd, #52bbbe) 1;
 }
 
 button.btn-success
 {
     margin: 10px 0px;
-    background-image: linear-gradient(to bottom, #1e1e96, #223946);
+    background-image: linear-gradient(to bottom, #38d6db, #59bbbe);
     border: 0;
 }
 
@@ -49,14 +53,14 @@ div.form-group{
 */
 
 .col-lg-7 .card-header, .card-footer{
-    background-image: linear-gradient(to right, #1e1e96, #223946);
-    color: white;
-    font-weight: 700;
+    background-image: linear-gradient(to right, #1bdae7, #55b1b8);
+    color: rgb(0, 0, 0);
+    font-size: 2000;
 }
 
 .card-body
 {
-    background-image: url('https://image.freepik.com/vector-gratis/vector-feliz-cumpleanos-plano-patron-inconsutil-textura_51635-1153.jpg');
+    background-image: url('https://i.pinimg.com/236x/0a/5d/d6/0a5dd6df836a9d17dc9618b37b149b5c.jpg');
 }
 
 .card-content
@@ -65,7 +69,7 @@ div.form-group{
     width: fit-content;
     margin: 5px auto;
     padding: 50px 20px;
-    border: 10px solid black;
+    border: 10px solid rgb(51, 221, 221);
 }
 
 .card-content img
@@ -79,7 +83,7 @@ div.form-group{
 .card-title
 {
     font-weight: 700;
-    background: linear-gradient(to bottom,#1e1e96, #223946);
+    background: linear-gradient(to bottom,#9259d3, #815883);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: tomato;
